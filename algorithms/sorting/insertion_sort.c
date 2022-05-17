@@ -6,7 +6,6 @@
  * @link https://en.wikipedia.org/wiki/Insertion_sort
  */
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
  * Insertion sort algorithm implements

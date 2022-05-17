@@ -8,7 +8,6 @@
  * @link https://en.wikipedia.org/wiki/Selection_sort
  */
 #include <stdio.h>
-#include <stdbool.h>
 
 /**
  * Swapped two numbers using pointer
