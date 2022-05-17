@@ -1,16 +1,19 @@
 /**
- * Selection sort is an in-place comparison sorting algorithm. It has an 
- * O(n^2) time complexity, which makes it inefficient on large lists, and 
- * generally performs worse than the similar insertion sort. Selection 
- * sort is noted for its simplicity and has performance advantages over 
- * more complicated algorithms in certain situations, particularly where 
- * auxiliary memory is limited
+ * Selection sort is an in-place comparison sorting algorithm. It 
+ * has an O(n^2) time complexity, which makes it inefficient on 
+ * large lists, and generally performs worse than the similar 
+ * insertion sort. Selection sort is noted for its simplicity and 
+ * has performance advantages over more complicated algorithms in 
+ * certain situations, particularly where auxiliary memory is 
+ * limited.
+ * 
  * @link https://en.wikipedia.org/wiki/Selection_sort
  */
 #include <stdio.h>
 
 /**
  * Swapped two numbers using pointer
+ * 
  * @param first first pointer of first number
  * @param second second pointer of second number
  */
@@ -22,6 +25,7 @@ void swap(int *first, int *second) {
 
 /**
  * Selection sort algorithm implements
+ * 
  * @param arr array to be sorted
  * @param size size of array
  */
@@ -43,6 +47,7 @@ void selectionSort(int arr[], int size) {
 
 /**
  * Print array
+ * 
  * @param arr array to be sorted
  * @param size size of array
  */

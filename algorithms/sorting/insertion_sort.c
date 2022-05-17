@@ -3,12 +3,14 @@
  * final sorted array (or list) one item at a time. It is much 
  * less efficient on large lists than more advanced algorithms 
  * such as quicksort, heapsort, or merge sort. 
+ * 
  * @link https://en.wikipedia.org/wiki/Insertion_sort
  */
 #include <stdio.h>
 
 /**
  * Insertion sort algorithm implements
+ * 
  * @param arr array to be sorted
  * @param size size of array
  */
@@ -27,6 +29,7 @@ void insertionSort(int arr[], int size) {
 
 /**
  * Print array
+ * 
  * @param arr array to be sorted
  * @param size size of array
  */
