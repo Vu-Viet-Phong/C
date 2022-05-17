@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T06:29:57.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="STJ0eQWb2isP1davYOlI" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T06:38:46.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="BM_lNvozFws4TuOgiCsa" version="18.0.6" type="github">
   <diagram id="xSXDo-ErJbW0Tqvufl92" name="Page-1">
-    <mxGraphModel dx="1007" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="586" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry y="190" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="r6faPB4ynnVyw-rRiI2o-10" value="«enumeration»&#xa;CellType" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="76" width="160" height="118" as="geometry" />
+          <mxGeometry x="1000" y="40" width="160" height="118" as="geometry" />
         </mxCell>
         <mxCell id="r6faPB4ynnVyw-rRiI2o-12" value="BOMB" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r6faPB4ynnVyw-rRiI2o-10">
           <mxGeometry y="40" width="160" height="26" as="geometry" />
