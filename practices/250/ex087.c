@@ -17,6 +17,7 @@ int main() {
     
     printf("Matrix A(%dx%d):\n", n, n);
     display(arr2D, n);
+    
     trace = computeTrace(arr2D, n);
     printf("Trace = %3d\n", trace);
 
