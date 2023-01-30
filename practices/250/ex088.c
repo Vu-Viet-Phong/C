@@ -4,6 +4,8 @@
 
 #define MAX 20
 
+void display(int arr2D[MAX][MAX], int n);
+
 int main() {
 	int i, j, n;
 	int arr2D[MAX][MAX];
@@ -17,6 +19,16 @@ int main() {
 			arr2D[i][j] = rand() % 201 - 100;
 		}
 	}
+    display(arr2D, n);
 
 	return 0;
+}
+
+void display(int arr2D[MAX][MAX], int n) {
+	int i, j;
+	for (i = 0; i < n; i++, putchar('\n')) {
+		for (j = 0; j < n; j++) {
+			printf("%5d", arr2D[i][j]);
+		}
+	}
 }
