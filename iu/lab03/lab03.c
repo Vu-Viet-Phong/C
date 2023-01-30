@@ -137,4 +137,3 @@ int inputArray(int arr[], int number) {
 		scanf("%d", &arr[i]);
 	}
 }
-

@@ -20,7 +20,7 @@ int main() {
 	}
 	printf("Origin array:\n");
 	display(arr2D);
-
+	
 	sort(arr2D);
 	printf("Sort array:\n");
 	display(arr2D);
@@ -43,7 +43,6 @@ void sort(int arr2D[N][N]) {
 
 void display(int arr2D[N][N]) {
 	int i, j;
-	
 	for (i = 0; i < N; i++, putchar('\n')) {
 		for (j = 0; j < N; j++) {
 			printf("%5d", arr2D[i][j]);

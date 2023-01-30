@@ -12,7 +12,7 @@ int main() {
 	int i, j, n;
 	int arr2D[MAX][MAX];
 	
-	printf("Enter N < 100: ");
+	printf("Enter N < 20: ");
 	scanf("%d", &n);
 	
 	srand(time(NULL));
@@ -57,7 +57,6 @@ void sort(int arr2D[MAX][MAX], int n) {
 
 void display(int arr2D[MAX][MAX], int n) {
 	int i, j;
-	
 	for (i = 0; i < n; i++, putchar('\n')) {
 		for (j = 0; j < n; j++) {
 			printf("%5d", arr2D[i][j]);
