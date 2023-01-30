@@ -5,8 +5,8 @@
 #define swap(a, b) { int temp = a; a = b; b = temp; }
 const int N = 4;
 
-void sort(int arr2D[N][N]);
-void display(int arr2D[N][N]);
+void sort(int arr2D[][N]);
+void display(int arr2D[][N]);
 
 int main() {
 	int i, j; 
@@ -28,7 +28,7 @@ int main() {
 	return 0;
 }
 
-void sort(int arr2D[N][N]) {
+void sort(int arr2D[][N]) {
 	int i, j;
 	int* arr1D = &arr2D[0][0];
 	
@@ -41,7 +41,7 @@ void sort(int arr2D[N][N]) {
 	}
 }
 
-void display(int arr2D[N][N]) {
+void display(int arr2D[][N]) {
 	int i, j;
 	for (i = 0; i < N; i++, putchar('\n')) {
 		for (j = 0; j < N; j++) {
